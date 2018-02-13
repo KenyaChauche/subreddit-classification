@@ -45,7 +45,7 @@ Once you've got the data, you will build a classification model that, using Natu
 
  **Pro Tip 2:** When building your webscraper, use the `sleep` function to make time in between your individual requests.
 
- **Pro Tip 3:** Build your scraper, and rigorously test it on a few pages to make sure it works before setting it loose on all of Reddit.
+ **Pro Tip 3:** Build your scraper, and rigorously test it on a few pages to make sure it works before setting it loose on all of Reddit.  Design your scraper so the data you collect is acceible even after your scraper crashes in the night.
 
  **Pro tip 4:** Scrape early, scrape often. Unlike earlier projects, you're collecting your own data, and you won't be able to even start modeling until you've collected all of this.
 
