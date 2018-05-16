@@ -28,7 +28,6 @@ Once you've got the data, you will build a classification model that, using Natu
 
 **BONUS PROBLEMS**
 1. If creating a logistic regression, GridSearch Ridge and Lasso for this model and report the best hyperparameter values.
-1. Scrape the full text of the threads using Reddit's JSON API.
 2. Write the actual article that you're pitching and turn it into a blog post that you host on your personal blog.
 
 ---
