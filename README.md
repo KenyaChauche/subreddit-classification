@@ -1,8 +1,8 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 3: Web Scraping & Classification
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 3: Web APIs & Classification
 
 ### Description
 
-In week four we've learned about a few different classifiers. In week five we'll learn about webscraping and Natural Language Processing, and some additional classification methods. Now we're going to put those skills to the test.
+In week four we've learned about a few different classifiers. In week five we'll learn about webscraping, APIs, Natural Language Processing, and some additional classification methods. Now we're going to put those skills to the test.
 
 ### Scenario
 
@@ -12,9 +12,9 @@ Your piece is going to be on how to create a Reddit post that will get the most 
 
 #### Project Summary
 
-In this project, we will practice two major skills. Collecting data by scraping a website and then building a binary predictor.
+In this project, we will practice two major skills. Collecting data by via an API and then building a binary predictor.
 
-As we discussed in week 2, and earlier today, there are two components to starting a data science problem: the problem statement, and acquiring the data.
+As we discussed earlier in the course, there are two components to starting a data science problem: the problem statement, and acquiring the data.
 
 For this article, your problem statement will be: _What characteristics of a post on Reddit are most predictive of the overall interaction on a thread (as measured by number of comments)?_
 
@@ -24,18 +24,18 @@ Your method for acquiring the data will be scraping the 'hot' threads as listed 
 3. The length of time it has been up on Reddit
 4. The number of comments on the thread
 
-Once you've got the data, you will build a classification model that, using Natural Language Processing and any other relevant features, predicts whether or not a given Reddit post will have above or below the _median_ number of comments.
+Once you've got the data, you will build a classification model that, using Natural Language Processing and any other relevant features, predicting whether or not a given Reddit post will have above or below the _median_ number of comments.
 
 **BONUS PROBLEMS**
 1. If creating a logistic regression, GridSearch Ridge and Lasso for this model and report the best hyperparameter values.
-1. Scrape the full text of the threads using Selenium (you'll learn about this in Webscraping II).
+1. Scrape the full text of the threads using Reddit's JSON API.
 2. Write the actual article that you're pitching and turn it into a blog post that you host on your personal blog.
 
 ---
 
 ### Requirements
 
-- Scrape and prepare your data using BeautifulSoup.
+- Scrape and prepare your data using the `requests` library.
 - **Create and compare two models**. One of these must be a random forest, however the other can be a classifier of your choosing: logistic regression, KNN, SVM, etc.
 - A Jupyter Notebook with your analysis for a peer audience of data scientists.
 - An executive summary of the results you found.
@@ -43,13 +43,9 @@ Once you've got the data, you will build a classification model that, using Natu
 
  **Pro Tip:** You can find a good example executive summary [here](https://www.proposify.biz/blog/executive-summary).
 
- **Pro Tip 2:** When building your webscraper, use the `sleep` function to make time in between your individual requests.
+ **Pro Tip 2:** When hitting Reddit's API, use the `sleep` function to make time in between your individual requests. **THIS IS CRUCIAL**
 
- **Pro Tip 3:** Build your scraper, and rigorously test it on a few pages to make sure it works before setting it loose on all of Reddit.  Design your scraper so the data you collect is acceible even after your scraper crashes in the night.
-
- **Pro tip 4:** Scrape early, scrape often. Unlike earlier projects, you're collecting your own data, and you won't be able to even start modeling until you've collected all of this.
-
-**Pro tip 5:** Save your results to a .csv or .txt file whenever you scrape. If you just keep your results in memory, if you computer crashes or shuts off, or you accidentally close your Jupyter notebook, you'll lose your data.
+**Pro tip 3:** Save your results to a .csv or .txt file whenever you scrape. If you just keep your results in memory, if you computer crashes or shuts off, or you accidentally close your Jupyter notebook, you'll lose your data.
 
 ---
 
@@ -66,7 +62,7 @@ Once you've got the data, you will build a classification model that, using Natu
 
 1. We'll be utilizing a dataset derived from live web data: [Reddit.com](https://www.reddit.com/)
 
-2. To get the data, we will use the requests library (or urllib) and BeautifulSoup to scrape the webpage.
+2. To get the data, we will use the `requests` library.
 
 ---
 
@@ -78,7 +74,6 @@ Once you've got the data, you will build a classification model that, using Natu
 
 ### Additional Resources
 - [Advice on How to Write for a Non-Technical Audience](http://programmers.stackexchange.com/questions/11523/explaining-technical-things-to-non-technical-people)
-- [Documentation for BeautifulSoup can be found here](http://www.crummy.com/software/BeautifulSoup/).
 
 ---
 
