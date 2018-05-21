@@ -10,6 +10,8 @@ You're fresh out of your Data Science bootcamp and looking to break through in t
 
 Your piece is going to be on how to create a Reddit post that will get the most engagement from Reddit users. Because this is FiveThirtyEight, you're going to have to get data and analyze it in order to make a compelling narrative.
 
+
+
 #### Project Summary
 
 In this project, we will practice two major skills. Collecting data by via an API and then building a binary predictor on text data.
@@ -55,6 +57,19 @@ Once you've got the data, you will build a classification model that, using Natu
 - You must submit your slide deck.
 - You must, at minimum, have a link to your slides and a link to your Jupyter notebook on your personal static site.
 - Materials must be submitted by 10:00 a.m. Friday, June 1st EST.
+
+We would like to be able to pull everyones project into the [master repository](https://git.generalassemb.ly/DSI-US-4/project-3) so everyone can view what anyone else in our cohort did.  In order to do this, you will need to put all of your project specific materials in their own folder within your repository(Everything thats not the `.gitignore` and `Readme.md).  The labeling convention for this folder should be `first-last-MARKET`. 
+
+---
+
+#### Presentation
+As the scenario states this project scenario was constructed with the intent of delivering to Nate Silver and other members of Five-Thirty-Eight (Analysts/Writers). They will have a technical understanding but also no patience doing things incorrectly. Please, no code in the slides.  If its something thats just so good you can't contain yourself, put it in an appendix.  Additionally, they are also writers and understand the importance of not just explaining what the data says but creating a story to wrap around the insights and bring everything together in a enjoyable and linear format. 
+
+A Good start for finding your story line is to comment your outputs very well.  The act of finding insights and noting them down (preferably in organized mark down) will help you identify a storyline and put pieces together as well as help you think about the next steps; "Based on what I just found, it would be really cool it the data turned out to lead to _____ as an insight.  I should investigate". Essentually, **narrate your project process**.  This helps you in thre ways.  
+- It better prepares your notebook to be a portfolio piece and the quicker a project becomes a portfolio piece, the sooner you'll be able to show it to potential employers 
+- Helps you identify actions and steps you can take to approach your data to find more insights.  
+- Passively helps you create a storyline that you can use when presenting. 
+
 
 ---
 
