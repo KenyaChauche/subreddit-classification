@@ -12,7 +12,7 @@ Your piece is going to be on how to create a Reddit post that will get the most 
 
 #### Project Summary
 
-In this project, we will practice two major skills. Collecting data by via an API and then building a binary predictor.
+In this project, we will practice two major skills. Collecting data by via an API and then building a binary predictor on text data.
 
 As we discussed earlier in the course, there are two components to starting a data science problem: the problem statement, and acquiring the data.
 
@@ -27,8 +27,9 @@ Your method for acquiring the data will be scraping the 'hot' threads as listed 
 Once you've got the data, you will build a classification model that, using Natural Language Processing and any other relevant features, predicting whether or not a given Reddit post will have above or below the _median_ number of comments.
 
 **BONUS PROBLEMS**
-1. If creating a logistic regression, GridSearch Ridge and Lasso for this model and report the best hyperparameter values.
+1. If creating a logistic regression, GridSearch Ridge and Lasso for this model and interpret the best hyperparameter values.
 2. Write the actual article that you're pitching and turn it into a blog post that you host on your personal blog.
+3. Collect text comments as well to search for text "buzzwords."
 
 ---
 
@@ -81,3 +82,18 @@ Once you've got the data, you will build a classification model that, using Natu
 Data science is a field in which we apply data to solve real-world problems. Therefore, projects and presentations are means by which we can assess your ability to solve real-world problems in a data-driven manner.
 
 Your final assessment ("grade," if you will) will be calculated based on a [topical rubric](https://docs.google.com/spreadsheets/d/1V6OzSHPXCJEe_sVT7B1vE7sT-jqNMNo-NrmZHtafMXY/edit?usp=sharing). For each category, you will receive a score of 0-3. From the rubric you can see descriptions of each score and what is needed to attain those scores. Make sure you look at the "Rubric P3" tab of the [spreadsheet](https://docs.google.com/spreadsheets/d/1V6OzSHPXCJEe_sVT7B1vE7sT-jqNMNo-NrmZHtafMXY/edit?usp=sharing).
+
+---
+
+### Why we choose this project for you?
+This project covers three of the biggest concepts we cover in the class: Classification Modelling, Natural Language Processing and Data Wrangling/Aquisition.
+
+Part 1 of the project focuses on **Data wrangling/gathering/aquisition**. This is a very important skill as not all the data you will need will be in a cleaned up SKLearn data sets or a single table in SQL.  There is a good chance that wherever you lang you will have to gather some data from some unstructured/semi structured sources, whether that be requesting information from an API or scraping it because they don't have and API or its just terribly documented.
+
+Part 2 of the project focuses on **Natural Language Processing** and converting standard text data (like Titles and Comments) into a format that allows us to analyze it and use it in modelling. 
+
+Part 3 of the project focuses on **Classification Modelling**.  Given that project 2 was a regression focused problem, we needed to give you a classification focused problem to practice the various models, means of assessment and preprocessing associated with classification.   
+
+
+
+
