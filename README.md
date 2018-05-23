@@ -10,9 +10,11 @@ You're fresh out of your Data Science bootcamp and looking to break through in t
 
 Your piece is going to be on how to create a Reddit post that will get the most engagement from Reddit users. Because this is FiveThirtyEight, you're going to have to get data and analyze it in order to make a compelling narrative.
 
+
+
 #### Project Summary
 
-In this project, we will practice two major skills. Collecting data by via an API and then building a binary predictor.
+In this project, we will practice two major skills. Collecting data by via an API and then building a binary predictor on text data.
 
 As we discussed earlier in the course, there are two components to starting a data science problem: the problem statement, and acquiring the data.
 
@@ -27,8 +29,9 @@ Your method for acquiring the data will be scraping the 'hot' threads as listed 
 Once you've got the data, you will build a classification model that, using Natural Language Processing and any other relevant features, predicting whether or not a given Reddit post will have above or below the _median_ number of comments.
 
 **BONUS PROBLEMS**
-1. If creating a logistic regression, GridSearch Ridge and Lasso for this model and report the best hyperparameter values.
+1. If creating a logistic regression, GridSearch Ridge and Lasso for this model and interpret the best hyperparameter values.
 2. Write the actual article that you're pitching and turn it into a blog post that you host on your personal blog.
+3. Collect text comments as well to search for text "buzzwords."
 
 ---
 
@@ -54,6 +57,19 @@ Once you've got the data, you will build a classification model that, using Natu
 - You must submit your slide deck.
 - You must, at minimum, have a link to your slides and a link to your Jupyter notebook on your personal static site.
 - Materials must be submitted by 10:00 a.m. Friday, June 1st EST.
+
+We would like to be able to pull everyone's projects into the [master repository](https://git.generalassemb.ly/DSI-US-4/project-3) so everyone can view what anyone else in our cohort did.  In order to do this, you will need to put all of your project specific materials in their own folder within your repository (Everything thats not the `.gitignore` and `Readme.md`).  The labeling convention for this folder should be `first-last-MARKET`. 
+
+---
+
+#### Presentation
+As the scenario states this project scenario was constructed with the intent of delivering to Nate Silver and other members of Five-Thirty-Eight (Analysts/Writers). They will have a technical understanding but also no patience for doing things incorrectly. Please, no code in the slides.  If it's something that's just so good you can't contain yourself, put it in an appendix.  Additionally, they are also writers and understand the importance of not just explaining what the data says but creating a story to wrap around the insights and bring everything together in a enjoyable and linear format. 
+
+A good start for finding your story line is to comment your outputs very well.  The act of finding insights and noting them down (preferably in organized mark down) will help you identify a storyline and put pieces together as well as help you think about the next steps; "Based on what I just found, it would be really cool if the data turned out to lead to _____ as an insight.  I should investigate". Essentially, **narrate your project process**.  This helps you in three ways.  
+- It better prepares your notebook to be a portfolio piece; the quicker a project becomes a portfolio piece, the sooner you'll be able to show it to potential employers.
+- Helps you identify actions and steps you can take to approach your data to find more insights.  
+- Passively helps you create a storyline that you can use when presenting. 
+
 
 ---
 
@@ -81,3 +97,18 @@ Once you've got the data, you will build a classification model that, using Natu
 Data science is a field in which we apply data to solve real-world problems. Therefore, projects and presentations are means by which we can assess your ability to solve real-world problems in a data-driven manner.
 
 Your final assessment ("grade," if you will) will be calculated based on a [topical rubric](https://docs.google.com/spreadsheets/d/1V6OzSHPXCJEe_sVT7B1vE7sT-jqNMNo-NrmZHtafMXY/edit?usp=sharing). For each category, you will receive a score of 0-3. From the rubric you can see descriptions of each score and what is needed to attain those scores. Make sure you look at the "Rubric P3" tab of the [spreadsheet](https://docs.google.com/spreadsheets/d/1V6OzSHPXCJEe_sVT7B1vE7sT-jqNMNo-NrmZHtafMXY/edit?usp=sharing).
+
+---
+
+### Why we choose this project for you?
+This project covers three of the biggest concepts we cover in the class: Classification Modelling, Natural Language Processing and Data Wrangling/Aquisition.
+
+Part 1 of the project focuses on **Data wrangling/gathering/aquisition**. This is a very important skill as not all the data you will need will be in clean CSVs or a single table in SQL.  There is a good chance that wherever you land you will have to gather some data from some unstructured/semi-structured sources; when possible, requesting information from an API, but often scraping it because they don't have an API (or it's terribly documented).
+
+Part 2 of the project focuses on **Natural Language Processing** and converting standard text data (like Titles and Comments) into a format that allows us to analyze it and use it in modelling. 
+
+Part 3 of the project focuses on **Classification Modelling**.  Given that project 2 was a regression focused problem, we needed to give you a classification focused problem to practice the various models, means of assessment and preprocessing associated with classification.   
+
+
+
+
