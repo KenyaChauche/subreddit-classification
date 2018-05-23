@@ -58,15 +58,15 @@ Once you've got the data, you will build a classification model that, using Natu
 - You must, at minimum, have a link to your slides and a link to your Jupyter notebook on your personal static site.
 - Materials must be submitted by 10:00 a.m. Friday, June 1st EST.
 
-We would like to be able to pull everyones project into the [master repository](https://git.generalassemb.ly/DSI-US-4/project-3) so everyone can view what anyone else in our cohort did.  In order to do this, you will need to put all of your project specific materials in their own folder within your repository(Everything thats not the `.gitignore` and `Readme.md`).  The labeling convention for this folder should be `first-last-MARKET`. 
+We would like to be able to pull everyone's projects into the [master repository](https://git.generalassemb.ly/DSI-US-4/project-3) so everyone can view what anyone else in our cohort did.  In order to do this, you will need to put all of your project specific materials in their own folder within your repository (Everything thats not the `.gitignore` and `Readme.md`).  The labeling convention for this folder should be `first-last-MARKET`. 
 
 ---
 
 #### Presentation
-As the scenario states this project scenario was constructed with the intent of delivering to Nate Silver and other members of Five-Thirty-Eight (Analysts/Writers). They will have a technical understanding but also no patience for doing things incorrectly. Please, no code in the slides.  If its something thats just so good you can't contain yourself, put it in an appendix.  Additionally, they are also writers and understand the importance of not just explaining what the data says but creating a story to wrap around the insights and bring everything together in a enjoyable and linear format. 
+As the scenario states this project scenario was constructed with the intent of delivering to Nate Silver and other members of Five-Thirty-Eight (Analysts/Writers). They will have a technical understanding but also no patience for doing things incorrectly. Please, no code in the slides.  If it's something that's just so good you can't contain yourself, put it in an appendix.  Additionally, they are also writers and understand the importance of not just explaining what the data says but creating a story to wrap around the insights and bring everything together in a enjoyable and linear format. 
 
-A Good start for finding your story line is to comment your outputs very well.  The act of finding insights and noting them down (preferably in organized mark down) will help you identify a storyline and put pieces together as well as help you think about the next steps; "Based on what I just found, it would be really cool it the data turned out to lead to _____ as an insight.  I should investigate". Essentually, **narrate your project process**.  This helps you in thre ways.  
-- It better prepares your notebook to be a portfolio piece and the quicker a project becomes a portfolio piece, the sooner you'll be able to show it to potential employers.
+A good start for finding your story line is to comment your outputs very well.  The act of finding insights and noting them down (preferably in organized mark down) will help you identify a storyline and put pieces together as well as help you think about the next steps; "Based on what I just found, it would be really cool if the data turned out to lead to _____ as an insight.  I should investigate". Essentially, **narrate your project process**.  This helps you in three ways.  
+- It better prepares your notebook to be a portfolio piece; the quicker a project becomes a portfolio piece, the sooner you'll be able to show it to potential employers.
 - Helps you identify actions and steps you can take to approach your data to find more insights.  
 - Passively helps you create a storyline that you can use when presenting. 
 
@@ -103,7 +103,7 @@ Your final assessment ("grade," if you will) will be calculated based on a [topi
 ### Why we choose this project for you?
 This project covers three of the biggest concepts we cover in the class: Classification Modelling, Natural Language Processing and Data Wrangling/Aquisition.
 
-Part 1 of the project focuses on **Data wrangling/gathering/aquisition**. This is a very important skill as not all the data you will need will be in a cleaned up SKLearn data sets or a single table in SQL.  There is a good chance that wherever you lang you will have to gather some data from some unstructured/semi structured sources, whether that be requesting information from an API or scraping it because they don't have and API or its just terribly documented.
+Part 1 of the project focuses on **Data wrangling/gathering/aquisition**. This is a very important skill as not all the data you will need will be in clean CSVs or a single table in SQL.  There is a good chance that wherever you land you will have to gather some data from some unstructured/semi-structured sources; when possible, requesting information from an API, but often scraping it because they don't have an API (or it's terribly documented).
 
 Part 2 of the project focuses on **Natural Language Processing** and converting standard text data (like Titles and Comments) into a format that allows us to analyze it and use it in modelling. 
 
