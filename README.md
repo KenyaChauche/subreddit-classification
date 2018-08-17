@@ -2,20 +2,14 @@
 
 ### Description
 
-In week four we've learned about a few different classifiers. In week five we'll learn about webscraping, APIs, Natural Language Processing, and some additional classification methods. Now we're going to put those skills to the test.
+In week four we've learned about a few different classifiers. In week five we'll learn about webscraping, APIs, and Natural Language Processing (NLP). Now we're going to put those skills to the test.
 
 For project 3, your goal is two-fold:
 1. Using Reddit's API, you'll collect posts from two subreddits of your choosing.
-2. You'll then use NLP to train a classifier on a binary classification problem, where each post from one of your subreddits is class `0` and all the posts from the other subreddit are of class `1`.
+2. You'll then use NLP to train a classifier on which subreddit a given post came from. This is a binary classification problem.
 
 
-#### Project Summary
-
-In this project, we will practice two major skills. Collecting data by via an API and then building a binary predictor on text data.
-
-As we discussed earlier in the course, there are two components to starting a data science problem: the problem statement, and acquiring the data.
-
-For this article, your problem statement will be: _What characteristics of a post on Reddit are most predictive of which subreddit that post came from?_
+#### About the API
 
 Reddit's API is fairly straightforward. For example, if I want the posts from [`/r/boardgames`](https://www.reddit.com/r/boardgames), all I have to do is add `.json` to the end of the url: https://www.reddit.com/r/boardgames.json
 
