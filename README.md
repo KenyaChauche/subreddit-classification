@@ -61,7 +61,7 @@ For Project 3 the evaluation categories are as follows:<br>
 - Python Syntax and Control Flow
 - Presentation
 
-**Scores will be out of 27 points based on the 9 items in the rubric.** <br>
+**Scores will be out of 30 points based on the 10 categories in the rubric.** <br>
 *3 points per section*<br>
 
 | Score | Interpretation |
@@ -85,8 +85,8 @@ For Project 3 the evaluation categories are as follows:<br>
 **Data Collection** 
 - Was enough data gathered to generate a significant result?
 - Was data collected that was useful and relevant to the project?
-- Could a pipeline have been set up to automate collection and storage of the data?
-- Was thought given to server recieving the requests such as considering number of requests per second?
+- Was data collection and storage optimized through custom functions, pipelines, and/or automation?
+- Was thought given to the server receiving the requests such as considering number of requests per second?
 
 **Data Cleaning and EDA** 
 - Are missing values imputed/handled appropriately?
@@ -97,10 +97,9 @@ For Project 3 the evaluation categories are as follows:<br>
 - Does the student address whether or not they are likely to be able to answer their problem statement with the provided data given what they've discovered during EDA?
 
 **Preprocessing and Modeling** 
-- Are categorical variables one-hot encoded?
-- Is text vectorized and rooted?
+- Is text data successfully converted to a matrix representation?
+- Are methods such as stop words, stemming, and lemmatization explored?
 - Does the student properly split and/or sample the data for validation/training purposes?
-- Does the student utilize feature selection to remove noisy features?
 - Does the student test and evaluate a variety of models to identify a production algorithm (**AT MINIMUM:** KNN, LogReg and RandomForest)?
 - Does the student defend their choice of production model relevant to the data at hand and the problem?
 - Does the student explain how the model works and evaluate its performance successes/downfalls?
@@ -108,7 +107,6 @@ For Project 3 the evaluation categories are as follows:<br>
 **Evaluation and Conceptual Understanding** 
 - Does the student accurately identify and explain the baseline score?
 - Does the student select and use metrics relevant to the problem objective?
-- Is more than one metric utilized in order to better assess performance?
 - Does the student interpret the results of their model for purposes of inference?
 - Is domain knowledge demonstrated when interpreting results?
 - Does the student provide appropriate interpretation with regards to descriptive and inferential statistics?
