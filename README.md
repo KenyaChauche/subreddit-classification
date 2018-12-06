@@ -47,8 +47,15 @@ To help you get started, we have a primer video on how to use Reddit's API: http
 Your local instructor will evaluate your project (for the most part) using the following criteria.  You should make sure that you consider and/or follow most if not all of the considerations/recommendations outlined below **while** working through your project.
 
 For Project 3 the evaluation categories are as follows:
+**[The Data Science Process](#process)**
 - [Problem Statement](#organization)
 - [Data Collection](#collection)
+- [Data Cleaning & EDA](#cleaning)
+- [Preprocessing & Modeling](#modeling)
+- [Evaluation and Conceptual Understanding](#evaluation)
+- [Conclusion and Recommendations](#conclusion)
+
+**[Organization and Professionalism](#organization)**
 - [Data Structures](#data-structures)
 - [Python Syntax and Control Flow](#python-syntax-and-control-flow)
 - [Modeling](#modeling)
@@ -64,6 +71,7 @@ For Project 3 the evaluation categories are as follows:
 | **2** | *Project meets expectations; few (and relatively minor) mistakes.* |
 | **3** | *Project demonstrates a thorough understanding of all of the considerations outlined.* |
 
+<div id="process"></div>
 ### The Data Science Process
 
 **Problem Statement**
@@ -74,7 +82,7 @@ For Project 3 the evaluation categories are as follows:
 - Is it clear who cares about this or why this is important to investigate?
 - Does the student consider the audience and the primary and secondary stakeholders?
 
-**Data Aquisition**
+**Data Collection**
 
 **Data Cleaning and EDA**
 - Are missing values imputed appropriately?
