@@ -47,19 +47,19 @@ To help you get started, we have a primer video on how to use Reddit's API: http
 Your local instructor will evaluate your project (for the most part) using the following criteria.  You should make sure that you consider and/or follow most if not all of the considerations/recommendations outlined below **while** working through your project.
 
 For Project 3 the evaluation categories are as follows:<br>
-**[The Data Science Process](#process)**
-- [Problem Statement](#problem)
-- [Data Collection](#collection)
-- [Data Cleaning & EDA](#cleaning)
-- [Preprocessing & Modeling](#modeling)
-- [Evaluation and Conceptual Understanding](#evaluation)
-- [Conclusion and Recommendations](#conclusion)
+**The Data Science Process**
+- Problem Statement
+- Data Collection
+- Data Cleaning & EDA
+- Preprocessing & Modeling
+- Evaluation and Conceptual Understanding
+- Conclusion and Recommendations
 
-**[Organization and Professionalism](#organization)**
-- [Organization](#organization)
-- [Visualizations](#visualizations)
-- [Python Syntax and Control Flow](#syntax)
-- [Presentation](#presentation)
+**Organization and Professionalism**
+- Organization
+- Visualizations
+- Python Syntax and Control Flow
+- Presentation
 
 **Scores will be out of 27 points based on the 9 items in the rubric.** <br>
 *3 points per section*<br>
