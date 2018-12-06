@@ -75,37 +75,35 @@ For Project 3 the evaluation categories are as follows:<br>
 ### The Data Science Process
 
 **Problem Statement** 
-- Is it clear what the student plans to do?
+- Is it clear what the goal of the project is?
 - What type of model will be developed?
 - How will success be evaluated?
 - Is the scope of the project appropriate?
 - Is it clear who cares about this or why this is important to investigate?
 - Does the student consider the audience and the primary and secondary stakeholders?
 
-
-
 **Data Collection** 
-
+- Was enough data gathered to generate a significant result?
+- Was data collected that was useful and relevant to the project?
+- Could a pipeline have been set up to automate collection and storage of the data?
+- Was thought given to server recieving the requests such as considering number of requests per second?
 
 **Data Cleaning and EDA** 
-- Are missing values imputed appropriately?
+- Are missing values imputed/handled appropriately?
 - Are distributions examined and described?
 - Are outliers identified and addressed?
 - Are appropriate summary statistics provided?
 - Are steps taken during data cleaning and EDA framed appropriately?
 - Does the student address whether or not they are likely to be able to answer their problem statement with the provided data given what they've discovered during EDA?
 
-
 **Preprocessing and Modeling** 
 - Are categorical variables one-hot encoded?
-- Does the student investigate or manufacture features with linear relationships to the target?
-- Have the data been scaled appropriately?
+- Is text vectorized and rooted?
 - Does the student properly split and/or sample the data for validation/training purposes?
-- Does the student utilize feature selection to remove noisy or multi-collinear features?
-- Does the student test and evaluate a variety of models to identify a production algorithm (**AT MINIMUM:** linear regression, lasso, and ridge)?
+- Does the student utilize feature selection to remove noisy features?
+- Does the student test and evaluate a variety of models to identify a production algorithm (**AT MINIMUM:** KNN, LogReg and RandomForest)?
 - Does the student defend their choice of production model relevant to the data at hand and the problem?
 - Does the student explain how the model works and evaluate its performance successes/downfalls?
-
 
 **Evaluation and Conceptual Understanding** 
 - Does the student accurately identify and explain the baseline score?
@@ -114,7 +112,6 @@ For Project 3 the evaluation categories are as follows:<br>
 - Does the student interpret the results of their model for purposes of inference?
 - Is domain knowledge demonstrated when interpreting results?
 - Does the student provide appropriate interpretation with regards to descriptive and inferential statistics?
-
 
 **Conclusion and Recommendations** 
 - Does the student provide appropriate context to connect individual steps back to the overall project?
@@ -137,7 +134,6 @@ For Project 3 the evaluation categories are as follows:<br>
 - Are there unnecessary files included?
 - Do files and directories have well-structured, appropriate, consistent names?
 
-
 **Visualizations**
 - Are sufficient visualizations provided?
 - Do plots accurately demonstrate valid relationships?
@@ -145,15 +141,13 @@ For Project 3 the evaluation categories are as follows:<br>
 - Are plots interpreted appropriately?
 - Are plots formatted and scaled appropriately for inclusion in a notebook-based technical report?
 
-
 **Python Syntax and Control Flow**
 - Is care taken to write human readable code?
 - Is the code syntactically correct (no runtime errors)?
 - Does the code generate desired results (logically correct)?
 - Does the code follows general best practices and style guidelines?
 - Are Pandas functions used appropriately?
-- Are `sklearn` methods used appropriately?
-
+- Are `sklearn` and `NLTK` methods used appropriately?
 
 **Presentation**
 - Is the problem statement clearly presented?
