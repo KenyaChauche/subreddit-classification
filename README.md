@@ -100,7 +100,7 @@ For Project 3 the evaluation categories are as follows:<br>
 - Is text data successfully converted to a matrix representation?
 - Are methods such as stop words, stemming, and lemmatization explored?
 - Does the student properly split and/or sample the data for validation/training purposes?
-- Does the student test and evaluate a variety of models to identify a production algorithm (**AT MINIMUM:** KNN, LogReg and RandomForest)?
+- Does the student test and evaluate a variety of models to identify a production algorithm (**AT MINIMUM:** RandomForest and one other model)?
 - Does the student defend their choice of production model relevant to the data at hand and the problem?
 - Does the student explain how the model works and evaluate its performance successes/downfalls?
 
