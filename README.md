@@ -46,9 +46,9 @@ To help you get started, we have a primer video on how to use Reddit's API: http
 ## Rubric
 Your local instructor will evaluate your project (for the most part) using the following criteria.  You should make sure that you consider and/or follow most if not all of the considerations/recommendations outlined below **while** working through your project.
 
-For Project 3 the evaluation categories are as follows:
+For Project 3 the evaluation categories are as follows:<br>
 **[The Data Science Process](#process)**
-- [Problem Statement](#organization)
+- [Problem Statement](#problem)
 - [Data Collection](#collection)
 - [Data Cleaning & EDA](#cleaning)
 - [Preprocessing & Modeling](#modeling)
@@ -56,9 +56,9 @@ For Project 3 the evaluation categories are as follows:
 - [Conclusion and Recommendations](#conclusion)
 
 **[Organization and Professionalism](#organization)**
-- [Data Structures](#data-structures)
-- [Python Syntax and Control Flow](#python-syntax-and-control-flow)
-- [Modeling](#modeling)
+- [Organization](#organization)
+- [Visualizations](#visualizations)
+- [Python Syntax and Control Flow](#syntax)
 - [Presentation](#presentation)
 
 **Scores will be out of 27 points based on the 9 items in the rubric.** <br>
@@ -71,10 +71,11 @@ For Project 3 the evaluation categories are as follows:
 | **2** | *Project meets expectations; few (and relatively minor) mistakes.* |
 | **3** | *Project demonstrates a thorough understanding of all of the considerations outlined.* |
 
+<br>
 <div id="process"></div>
-### The Data Science Process
+###The Data Science Process
 
-**Problem Statement**
+**Problem Statement** <div id="problem"></div>
 - Is it clear what the student plans to do?
 - What type of model will be developed?
 - How will success be evaluated?
@@ -82,9 +83,12 @@ For Project 3 the evaluation categories are as follows:
 - Is it clear who cares about this or why this is important to investigate?
 - Does the student consider the audience and the primary and secondary stakeholders?
 
-**Data Collection**
 
-**Data Cleaning and EDA**
+<div id="collection"></div> 
+**Data Collection** 
+
+<div id="cleaning"></div>
+**Data Cleaning and EDA** 
 - Are missing values imputed appropriately?
 - Are distributions examined and described?
 - Are outliers identified and addressed?
@@ -92,7 +96,8 @@ For Project 3 the evaluation categories are as follows:
 - Are steps taken during data cleaning and EDA framed appropriately?
 - Does the student address whether or not they are likely to be able to answer their problem statement with the provided data given what they've discovered during EDA?
 
-**Preprocessing and Modeling**
+<div id="modeling"></div>
+**Preprocessing and Modeling** 
 - Are categorical variables one-hot encoded?
 - Does the student investigate or manufacture features with linear relationships to the target?
 - Have the data been scaled appropriately?
@@ -102,7 +107,8 @@ For Project 3 the evaluation categories are as follows:
 - Does the student defend their choice of production model relevant to the data at hand and the problem?
 - Does the student explain how the model works and evaluate its performance successes/downfalls?
 
-**Evaluation and Conceptual Understanding**
+<div id="evaluation"></div>
+**Evaluation and Conceptual Understanding** 
 - Does the student accurately identify and explain the baseline score?
 - Does the student select and use metrics relevant to the problem objective?
 - Is more than one metric utilized in order to better assess performance?
@@ -110,7 +116,8 @@ For Project 3 the evaluation categories are as follows:
 - Is domain knowledge demonstrated when interpreting results?
 - Does the student provide appropriate interpretation with regards to descriptive and inferential statistics?
 
-**Conclusion and Recommendations**
+<div id="conclusion"></div>
+**Conclusion and Recommendations** 
 - Does the student provide appropriate context to connect individual steps back to the overall project?
 - Is it clear how the final recommendations were reached?
 - Are the conclusions/recommendations clearly stated?
@@ -118,6 +125,7 @@ For Project 3 the evaluation categories are as follows:
 - Does the student address how findings of this research can be applied for the benefit of stakeholders?
 - Are future steps to move the project forward identified?
 
+<div id="organization"></div>
 ### Organization and Professionalism
 
 **Project Organization**
@@ -130,6 +138,7 @@ For Project 3 the evaluation categories are as follows:
 - Are there unnecessary files included?
 - Do files and directories have well-structured, appropriate, consistent names?
 
+<div id="visualizations"></div>
 **Visualizations**
 - Are sufficient visualizations provided?
 - Do plots accurately demonstrate valid relationships?
@@ -137,6 +146,7 @@ For Project 3 the evaluation categories are as follows:
 - Are plots interpreted appropriately?
 - Are plots formatted and scaled appropriately for inclusion in a notebook-based technical report?
 
+<div id="syntax"></div>
 **Python Syntax and Control Flow**
 - Is care taken to write human readable code?
 - Is the code syntactically correct (no runtime errors)?
@@ -145,6 +155,7 @@ For Project 3 the evaluation categories are as follows:
 - Are Pandas functions used appropriately?
 - Are `sklearn` methods used appropriately?
 
+<div id="presentation"></div>
 **Presentation**
 - Is the problem statement clearly presented?
 - Does a strong narrative run through the presentation building toward a final conclusion?
