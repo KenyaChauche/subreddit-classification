@@ -20,7 +20,7 @@ To help you get started, we have a primer video on how to use Reddit's API: http
 ### Requirements
 
 - Gather and prepare your data using the `requests` library.
-- **Create and compare two models**. One of these must be a random forest, however the other can be a classifier of your choosing: logistic regression, KNN, SVM, etc.
+- **Create and compare two models**. One of these must be a Bayes classifier, however the other can be a classifier of your choosing: logistic regression, KNN, SVM, etc.
 - A Jupyter Notebook with your analysis for a peer audience of data scientists.
 - An executive summary of the results you found.
 - A short presentation outlining your process and findings for a semi-technical audience.
@@ -39,7 +39,7 @@ To help you get started, we have a primer video on how to use Reddit's API: http
 
 - Code and executive summary must be in a clearly commented Jupyter Notebook.
 - You must submit your slide deck.
-- Materials must be submitted by **10:00 AM on Friday, December 21st**.
+- Materials must be submitted by **10:00 AM on Monday, April 8th**.
 
 ---
 
@@ -100,7 +100,7 @@ For Project 3 the evaluation categories are as follows:<br>
 - Is text data successfully converted to a matrix representation?
 - Are methods such as stop words, stemming, and lemmatization explored?
 - Does the student properly split and/or sample the data for validation/training purposes?
-- Does the student test and evaluate a variety of models to identify a production algorithm (**AT MINIMUM:** RandomForest and one other model)?
+- Does the student test and evaluate a variety of models to identify a production algorithm (**AT MINIMUM:** Bayes and one other model)?
 - Does the student defend their choice of production model relevant to the data at hand and the problem?
 - Does the student explain how the model works and evaluate its performance successes/downfalls?
 
