@@ -66,15 +66,15 @@ For Project 3 the evaluation categories are as follows:<br>
 
 | Score | Interpretation |
 | --- | --- |
-| **0** | *Project fails to meet the outlined expectations; many major issues exist.* |
-| **1** | *Project close to meeting expectations; many minor issues or a few major issues.* |
-| **2** | *Project meets expectations; few (and relatively minor) mistakes.* |
-| **3** | *Project demonstrates a thorough understanding of all of the considerations outlined.* |
+| **0** | *Project fails to meet the minimum requirements for this item.* |
+| **1** | *Project meets the minimum requirements for this item, but falls significantly short of portfolio-ready expectations.* |
+| **2** | *Project exceeds the minimum requirements for this item, but falls short of portfolio-ready expectations.* |
+| **3** | *Project meets or exceeds portfolio-ready expectations; demonstrates a thorough understanding of every outlined consideration.* |
 
 
 ### The Data Science Process
 
-**Problem Statement** 
+**Problem Statement**
 - Is it clear what the goal of the project is?
 - What type of model will be developed?
 - How will success be evaluated?
@@ -82,13 +82,13 @@ For Project 3 the evaluation categories are as follows:<br>
 - Is it clear who cares about this or why this is important to investigate?
 - Does the student consider the audience and the primary and secondary stakeholders?
 
-**Data Collection** 
+**Data Collection**
 - Was enough data gathered to generate a significant result?
 - Was data collected that was useful and relevant to the project?
 - Was data collection and storage optimized through custom functions, pipelines, and/or automation?
 - Was thought given to the server receiving the requests such as considering number of requests per second?
 
-**Data Cleaning and EDA** 
+**Data Cleaning and EDA**
 - Are missing values imputed/handled appropriately?
 - Are distributions examined and described?
 - Are outliers identified and addressed?
@@ -96,7 +96,7 @@ For Project 3 the evaluation categories are as follows:<br>
 - Are steps taken during data cleaning and EDA framed appropriately?
 - Does the student address whether or not they are likely to be able to answer their problem statement with the provided data given what they've discovered during EDA?
 
-**Preprocessing and Modeling** 
+**Preprocessing and Modeling**
 - Is text data successfully converted to a matrix representation?
 - Are methods such as stop words, stemming, and lemmatization explored?
 - Does the student properly split and/or sample the data for validation/training purposes?
@@ -104,14 +104,14 @@ For Project 3 the evaluation categories are as follows:<br>
 - Does the student defend their choice of production model relevant to the data at hand and the problem?
 - Does the student explain how the model works and evaluate its performance successes/downfalls?
 
-**Evaluation and Conceptual Understanding** 
+**Evaluation and Conceptual Understanding**
 - Does the student accurately identify and explain the baseline score?
 - Does the student select and use metrics relevant to the problem objective?
 - Does the student interpret the results of their model for purposes of inference?
 - Is domain knowledge demonstrated when interpreting results?
 - Does the student provide appropriate interpretation with regards to descriptive and inferential statistics?
 
-**Conclusion and Recommendations** 
+**Conclusion and Recommendations**
 - Does the student provide appropriate context to connect individual steps back to the overall project?
 - Is it clear how the final recommendations were reached?
 - Are the conclusions/recommendations clearly stated?
